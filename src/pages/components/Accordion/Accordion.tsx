@@ -50,15 +50,11 @@ const Accordion: React.FC<{ id?: string }> = ({ id }) => {
           <AccordionWrapper.Content className="">
             <div className="mb-2 text-main-violet">
               <p>
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-                esse molestie consequat, vel illum dolore eu feugiat nulla
-                facilisis at vero eros et accumsan et iusto odio dignissim qui
-                blandit praesent luptatum zzril delenit augue duis dolore te
-                feugait nulla facilisi. Nam liber tempor cum soluta nobis
-                eleifend option congue nihil imperdiet doming id quod mazim
-                placerat facer possim assum. Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Diese Therapie eignet sich für Menschen aller Altersgruppen, von
+                Neugeborenen bis zu älteren Menschen, selbst wenn sie sich in
+                einem sehr schmerzhaften oder gebrechlichen Zustand befinden.
+                Während der Behandlung hören meine Hände auf die Botschaften des
+                Körpers.
               </p>
             </div>
           </AccordionWrapper.Content>

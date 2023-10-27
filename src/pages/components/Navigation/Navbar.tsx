@@ -108,7 +108,7 @@ const Navbar: React.FC<ChildProps> = ({ onNavItemCkick }) => {
                 setScrollToSection("section-2");
               }}
             >
-              Was ist Cranio?
+              Was ist Cranio Sacrale Körperbalance ?
             </Dropdown.Item>
             <Dropdown.Item
               onClick={() => {
