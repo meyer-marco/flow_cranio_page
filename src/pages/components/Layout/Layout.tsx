@@ -37,10 +37,14 @@ const Layout = () => {
         </div>
 
         <div id="" className="mt-4 ">
-          <div className="flex justify-center">
-            <Logo className="opacity-20" height={390} width={390} />
+          <div className="flex justify-center ">
+            <Logo
+              className="opacity-20 md:w-96 w-1/2 md:h-2/4 h-1/4"
+              height={390}
+              width={390}
+            />
           </div>
-          <div className="flex justify-center items-center content-center md:px-44 pt-2 text-xl text-center">
+          <div className="flex justify-center items-center content-center md:px-44 pt-4 md:text-xl text-base text-center">
             <div>
               <p>
                 Fühlst du dich manchmal, als würdest du nicht ganz du selbst
@@ -65,12 +69,12 @@ const Layout = () => {
             id="section-2"
             className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 text-xl text-center"
           >
-            <div className="font-extrabold text-2xl">
+            <div className="font-extrabold md:text-2xl text-lg">
               Was ist Cranio Sacrale Körperbalance?
             </div>
             <br />
             <br />
-            <div>
+            <div className="md:text-xl text-base">
               Die Cranio Sacrale Körperbalance Therapie ist eine alternative und
               effektive Heilungsmethode. Ihre sanfte Herangehensweise wirkt
               ausgleichend auf verschiedene Körpersysteme und fördert die
@@ -90,7 +94,11 @@ const Layout = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <Logo className="opacity-20" height={390} width={390} />
+          <Logo
+            className="opacity-20 md:w-96 w-1/2 md:h-2/4 h-1/4"
+            height={390}
+            width={390}
+          />
         </div>
         <div id="" className="flex items-center place-content-center pb-24">
           <Accordion />
