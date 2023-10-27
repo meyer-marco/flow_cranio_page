@@ -13,7 +13,7 @@ const Wave = (props: SVGProps<SVGSVGElement>) => (
     <defs>
       <linearGradient id="z" x1={0} x2={0} y1={1} y2={0}>
         <stop offset="0%" stopColor="rgba(221, 142, 109, 1)" />
-        <stop offset="100%" stopColor="rgba(156, 44, 84, 1)" />
+        <stop offset="70%" stopColor="rgba(156, 44, 84, 1)" />
         {/*  
       old grandient flow -> soft orange like 
       <stop offset="100%" stopColor="rgba(251, 243, 227, 1)" />      
