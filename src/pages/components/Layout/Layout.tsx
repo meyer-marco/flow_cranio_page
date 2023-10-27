@@ -2,7 +2,6 @@ import Image from "next/image";
 import Accordion from "../Accordion/Accordion";
 import Navbar from "../Navigation/Navbar";
 import style from "./layout.module.css";
-import waves from "../../../../public/images/wave.png";
 import Wave from "../Wave/Wave";
 
 const Layout = () => {
@@ -16,8 +15,6 @@ const Layout = () => {
       });
     }
   };
-
-  //TODO: note into obsdian how to pass data between child and parent component, note sticky nav stuff
 
   const onNavItemCkick = (data: string) => {
     handleClickScroll(data);
