@@ -11,13 +11,17 @@ const Wave = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="a" x1={0} x2={0} y1={1} y2={0}>
+      <linearGradient id="z" x1={0} x2={0} y1={1} y2={0}>
         <stop offset="0%" stopColor="rgba(221, 142, 109, 1)" />
-        <stop offset="100%" stopColor="rgba(251, 243, 227, 1)" />
+        <stop offset="100%" stopColor="rgba(156, 44, 84, 1)" />
+        {/*  
+      old grandient flow -> soft orange like 
+      <stop offset="100%" stopColor="rgba(251, 243, 227, 1)" />      
+      */}
       </linearGradient>
     </defs>
     <path
-      fill="url(#a)"
+      fill="url(#z)"
       d="m0 240 60-35c60-35 180-105 300-120s240 25 360 50 240 35 360 20 240-55 360-60 240 25 360 55 240 60 360 50 240-60 360-65 240 35 360 40 240-25 360-15 240 60 360 85 240 25 360 20 240-15 360-15 240 10 360 5 240-25 360-25 240 20 360 10 240-50 360-55 240 25 360 40 240 15 360-5 240-60 360-60 240 40 360 35 240-55 360-70 240 5 360-5 240-50 360-35 240 85 300 120l60 35v60H0Z"
       style={{
         transform: "translate(0,0)",
