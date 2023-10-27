@@ -21,7 +21,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="bg-main-background ">
+    <div className="bg-main-background scroll-smooth">
       <Navbar onNavItemCkick={onNavItemCkick} />
 
       <div className={` bg-main-background px-10 ${style.distance_to_nav}`}>
