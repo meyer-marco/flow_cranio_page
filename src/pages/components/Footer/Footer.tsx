@@ -7,13 +7,13 @@ export const Footer: React.FC<{}> = () => {
       <div className="w-full text-center text-main-violet">
         <div className="w-full flex justify-center ">
           <FooterWrapper.LinkGroup className="text-main-violet">
-            <FooterWrapper.Link className="px-8" href="#">
+            <FooterWrapper.Link className="md:px-8 px-2" href="#">
               Über mich
             </FooterWrapper.Link>
-            <FooterWrapper.Link className="px-8" href="#">
+            <FooterWrapper.Link className="md:px-8 px-2" href="#">
               Datenschutz
             </FooterWrapper.Link>
-            <FooterWrapper.Link className="px-8" href="#">
+            <FooterWrapper.Link className="md:px-8 px-2" href="#">
               Kontakt
             </FooterWrapper.Link>
           </FooterWrapper.LinkGroup>
