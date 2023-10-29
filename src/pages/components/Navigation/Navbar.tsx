@@ -74,7 +74,7 @@ const Navbar: React.FC<ChildProps> = ({ onNavItemCkick }) => {
         className={`bg-main-background px-4 fixed w-full top-0 left-0 z-20 ${style.nav_container}`}
       >
         <NavbarWrapper.Brand href="/">
-          <Logo height={90} width={90} />
+          <Logo className="md:w-20 w-12" height={90} width={90} />
           <span
             className={`md:text-3xl text-xl font-bold ${style.headline_text}`}
           >
