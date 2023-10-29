@@ -155,21 +155,35 @@ const Layout = () => {
             id="section-3"
             className="scroll-mt-28 px-4 flex flex-col justify-center text-center bg-main-background"
           >
-            Termine - Kontakt
-            <br /> <br />
-            Katja Rogall
-            <br />
-            <br />
-            Cranio Sacrale Körperbalance
-            <br /> <br />
-            Besprechen
-            <br /> <br />
-            Chakren Massage
-            <br /> <br />
-            Alstertalweg 32 24558 Wakendorf II Tel. 0176 32 69 69 49
-            <br /> <br />
-            tel. Terminvereinbarung
-            <br />
+            <div>
+              Termine - Kontakt
+              <br /> <br />
+            </div>
+            <div>
+              Katja Rogall
+              <br />
+              <br />
+            </div>
+            <div>
+              Cranio Sacrale Körperbalance
+              <br /> <br />
+            </div>
+            <div>
+              Besprechen
+              <br /> <br />
+            </div>
+            <div>
+              Chakren Massage
+              <br /> <br />
+            </div>
+            <div>
+              Alstertalweg 32 24558 Wakendorf II Tel. 0176 32 69 69 49
+              <br /> <br />
+            </div>
+            <div>
+              tel. Terminvereinbarung
+              <br />
+            </div>
           </div>
         </div>
       </div>
