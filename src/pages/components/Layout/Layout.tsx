@@ -5,6 +5,9 @@ import style from "./layout.module.css";
 import Wave from "../Wave/Wave";
 import easy from "../../../../public/images/easy_living_2.png";
 import Logo from "../Logo/Logo";
+import Card from "../Card/Card";
+import healing from "../../../../public/images/healing_1.png";
+import feelingBad from "../../../../public/images/feeling_bad.png";
 
 const Layout = () => {
   const handleClickScroll = (value: string) => {
@@ -44,7 +47,50 @@ const Layout = () => {
               width={390}
             />
           </div>
-          <div className="flex justify-center items-center content-center md:px-44 pt-4 md:text-xl text-base text-center">
+          <div>
+            <div className="flex justify-center items-center content-center md:px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
+              Cranio Sacrale Körperbalance - Aktiviere Deine
+              Selbstheilungskräfte
+            </div>
+            {/*     <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
+              Aktiviere Deine Selbstheilungskräfte
+            </div> */}
+            <div className="md:pb-24 pb-12 md:pt-12 pt-4">
+              <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
+            </div>
+            <div className="flex justify-center">
+              <Card
+                headline="Blockaden lösen, Selbstheilung aktivieren"
+                content="Bei der Cranio Sacral Behandlung spüre ich Blockaden in deinem
+              Körper auf und löse sie mit gezielten Berührungen. Deine
+              Selbstheilungskräfte aktivieren sich. Vitalität, Entspannung und
+              Wohlbefinden breiten sich aus."
+                image={healing}
+              />
+            </div>
+            {/*            <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 md:text-xl text-base text-center">
+              Bei der Cranio Sacral Behandlung spüre ich Blockaden in deinem
+              Körper auf und löse sie mit gezielten Berührungen. Deine
+              Selbstheilungskräfte aktivieren sich. Vitalität, Entspannung und
+              Wohlbefinden breiten sich aus.
+            </div> */}
+          </div>
+          <div className="flex justify-center pt-12">
+            <Card
+              headline="Hast du das Gefühl, dass Körper und Seele aus dem Gleichgewicht
+                geraten sind?"
+              content="Negative Gedanken, Ängste, depressive Verstimmungen und
+                Schlaflosigkeit können durch Energiearbeit und Cranio Sacral
+                Behandlungen gelindert werden. Gemeinsam begeben wir uns auf
+                eine Reise in dein inneres Selbst, um dort aufzuräumen, Dinge
+                loszulassen, die du nicht mehr benötigst, und frischen Glanz in
+                dein Innerstes zu bringen, damit du dich wieder rundum
+                wohlfühlen kannst."
+              image={feelingBad}
+            />
+          </div>
+          {/* 
+          <div className="flex justify-center items-center content-center md:px-12 px-4 pt-12 pb-6 md:text-xl text-base text-center">
             <div>
               <p>
                 Fühlst du dich manchmal, als würdest du nicht ganz du selbst
@@ -61,13 +107,13 @@ const Layout = () => {
                 wohlfühlen kannst.
               </p>
             </div>
-          </div>
-          <div className="pb-24 pt-24">
+          </div> */}
+          {/*         <div className="pb-24 pt-24">
             <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
-          </div>
+          </div> */}
           <div
             id="section-2"
-            className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 text-xl text-center"
+            className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 12 pt-12 text-xl text-center"
           >
             <div className="font-extrabold md:text-2xl text-lg">
               Was ist Cranio Sacrale Körperbalance?
