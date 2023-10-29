@@ -153,9 +153,10 @@ const Layout = () => {
           {/* Termine */}
           <div
             id="section-3"
-            className="scroll-mt-28 flex justify-center text-center bg-main-background"
+            className="scroll-mt-28 px-4 flex justify-center text-center bg-main-background"
           >
-            Termine - Kontakt <br /> <br />
+            Termine - Kontakt
+            <br /> <br />
             Katja Rogall
             <br />
             <br />
