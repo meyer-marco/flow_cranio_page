@@ -38,9 +38,9 @@ const Card: React.FC<{
           <h5 className="mb-2 md:text-3xl text-xl font-bold text-main-violet">
             {headline}
           </h5>
-          <p className="mb-5 md:text-base text-sm text-main-violet sm:text-lg">
-            <p>{content}</p>
-          </p>
+          <div className="mb-5 md:text-base text-sm text-main-violet sm:text-lg">
+            {content}
+          </div>
 
           <Image height={200} width={650} src={image} alt={""} />
         </div>
