@@ -11,6 +11,7 @@ import feelingBad from "../../../../public/images/feeling_bad.png";
 import feelingRelaxed from "../../../../public/images/feeling_relexed_2.png";
 import Footer from "../Footer/Footer";
 import Divider from "../Divider/Divider";
+import Avatar from "../Avatar/Avatar";
 
 const Layout = () => {
   const handleClickScroll = (value: string) => {
@@ -177,11 +178,18 @@ const Layout = () => {
           <div id="" className="flex items-center place-content-center pb-24">
             <Accordion />
           </div>
+          <div>
+            <Divider />
+          </div>
           {/* Termine */}
           <div
             id="section-3"
             className="scroll-mt-28 px-4 flex flex-col justify-center text-center bg-main-background"
           >
+            <div className="py-12">
+              <Avatar />
+            </div>
+
             <div>
               Termine - Kontakt
               <br /> <br />
