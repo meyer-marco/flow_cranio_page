@@ -1,5 +1,5 @@
 import * as React from "react";
-import katja from "../../../../public/images/katja_filter.png";
+import katja from "../../../../public/images/katja_filter_2.png";
 import Image from "next/image";
 
 const Avatar: React.FC<{}> = () => {
