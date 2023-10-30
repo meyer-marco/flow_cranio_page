@@ -9,6 +9,7 @@ import Card from "../Card/Card";
 import healing from "../../../../public/images/healing_1.png";
 import feelingBad from "../../../../public/images/feeling_bad.png";
 import Footer from "../Footer/Footer";
+import Divider from "../Divider/Divider";
 
 const Layout = () => {
   const handleClickScroll = (value: string) => {
@@ -61,6 +62,9 @@ const Layout = () => {
               </div>
               <div>
                 Welche Auswirkungen hat die Cranio Sacrale Körperarbeit?
+              </div>
+              <div>
+                <Divider />
               </div>
               <div className="flex justify-center">
                 <Card
