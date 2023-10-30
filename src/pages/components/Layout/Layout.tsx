@@ -59,6 +59,9 @@ const Layout = () => {
               <div className="md:pb-24 pb-12 md:pt-12 pt-4">
                 <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
               </div>
+              <div>
+                Welche Auswirkungen hat die Cranio Sacrale Körperarbeit?
+              </div>
               <div className="flex justify-center">
                 <Card
                   headline="Blockaden lösen, Selbstheilung aktivieren"
@@ -69,12 +72,6 @@ const Layout = () => {
                   image={healing}
                 />
               </div>
-              {/*            <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 md:text-xl text-base text-center">
-              Bei der Cranio Sacral Behandlung spüre ich Blockaden in deinem
-              Körper auf und löse sie mit gezielten Berührungen. Deine
-              Selbstheilungskräfte aktivieren sich. Vitalität, Entspannung und
-              Wohlbefinden breiten sich aus.
-            </div> */}
             </div>
             <div className="flex justify-center pt-12">
               <Card
@@ -90,28 +87,6 @@ const Layout = () => {
                 image={feelingBad}
               />
             </div>
-            {/* 
-          <div className="flex justify-center items-center content-center md:px-12 px-4 pt-12 pb-6 md:text-xl text-base text-center">
-            <div>
-              <p>
-                Fühlst du dich manchmal, als würdest du nicht ganz du selbst
-                sein?
-                <br />
-                Hast du das Gefühl, dass Körper und Seele aus dem Gleichgewicht
-                geraten sind? <br />
-                Negative Gedanken, Ängste, depressive Verstimmungen und
-                Schlaflosigkeit können durch Energiearbeit und Cranio Sacral
-                Behandlungen gelindert werden. Gemeinsam begeben wir uns auf
-                eine Reise in dein inneres Selbst, um dort aufzuräumen, Dinge
-                loszulassen, die du nicht mehr benötigst, und frischen Glanz in
-                dein Innerstes zu bringen, damit du dich wieder rundum
-                wohlfühlen kannst.
-              </p>
-            </div>
-          </div> */}
-            {/*         <div className="pb-24 pt-24">
-            <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
-          </div> */}
             <div
               id="section-2"
               className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 12 pt-12 text-xl text-center"
