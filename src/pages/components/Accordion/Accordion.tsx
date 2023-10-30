@@ -6,24 +6,24 @@ import type { CustomFlowbiteTheme, ThemeProps } from "flowbite-react";
 const customTheme: CustomFlowbiteTheme = {
   accordion: {
     root: {
-      base: "bg-second-background divide-y divide-main-violet shadow-md",
+      base: " divide-y divide-main-violet shadow-md",
       flush: {
         off: "rounded-lg",
         on: "border-b",
       },
     },
     content: {
-      base: "py-5 px-10 last:rounded-b-lg first:rounded-t-lg bg-second-background opacity-75",
+      base: "py-5 md:px-10 px-7 last:rounded-b-lg first:rounded-t-lg md:text-base text-xs bg-second-background ",
     },
     title: {
       arrow: {
-        base: "h-6 w-6 shrink-0 font-bold",
+        base: "h-6 w-6 shrink-0 font-bold ",
         open: {
           off: "",
           on: "rotate-180",
         },
       },
-      base: "flex w-full items-center justify-between first:rounded-t-lg last:rounded-b-lg py-5 px-5 text-left font-medium text-gray-500 dark:text-gray-400",
+      base: "flex w-full items-center justify-between first:rounded-t-lg last:rounded-b-lg py-5 px-5 md:text-xl  text-left font-medium text-gray-500 dark:text-gray-400",
       flush: {
         off: "",
         on: "bg-transparent ",
