@@ -35,10 +35,10 @@ const Card: React.FC<{
     <Flowbite theme={{ theme: customTheme }}>
       <CardWrapper className="md:w-1/2">
         <div>
-          <h5 className="mb-2 md:text-3xl text-xl font-bold text-main-violet">
+          <h5 className="mb-2 md:text-2xl text-lg text-main-violet">
             {headline}
           </h5>
-          <div className="mb-5 md:text-base text-sm text-main-violet sm:text-lg">
+          <div className="mb-5 md:text-base text-sm font-thin text-main-violet">
             {content}
           </div>
 

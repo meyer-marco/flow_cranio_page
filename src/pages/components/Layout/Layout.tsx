@@ -8,6 +8,7 @@ import Logo from "../Logo/Logo";
 import Card from "../Card/Card";
 import healing from "../../../../public/images/healing_1.png";
 import feelingBad from "../../../../public/images/feeling_bad.png";
+import feelingRelaxed from "../../../../public/images/feeling_relexed_2.png";
 import Footer from "../Footer/Footer";
 import Divider from "../Divider/Divider";
 
@@ -50,22 +51,54 @@ const Layout = () => {
               />
             </div>
             <div>
-              <div className="flex justify-center items-center content-center md:px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
+              <Divider />
+            </div>
+            <div>
+              <div className="flex justify-center items-center content-center md:px-12 pt-6 pb-6 font-bold md:text-3xl text-base text-center">
                 Cranio Sacrale Körperbalance - Aktiviere Deine
                 Selbstheilungskräfte
               </div>
               {/*     <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
               Aktiviere Deine Selbstheilungskräfte
             </div> */}
-              <div className="md:pb-24 pb-12 md:pt-12 pt-4">
+              <div className="md:pb-12 pb-12 md:pt-12 pt-4">
                 <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
-              </div>
-              <div>
-                Welche Auswirkungen hat die Cranio Sacrale Körperarbeit?
               </div>
               <div>
                 <Divider />
               </div>
+              {/*           <div className="flex justify-center items-center content-center md:px-12 pt-8 pb-20 font-bold md:text-3xl text-base text-center">
+                Welche Auswirkungen hat die Cranio Sacrale Körperarbeit?
+              </div> */}
+              <div
+                id="section-2"
+                className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 12 pt-12 pb-20 text-xl text-center"
+              >
+                <div className="font-bold md:text-3xl text-base">
+                  Was ist Cranio Sacrale Körperbalance?
+                </div>
+                <br />
+                <br />
+                <div className="md:text-xl text-base">
+                  Die Cranio Sacrale Körperbalance Therapie ist eine alternative
+                  und effektive Heilungsmethode. Ihre sanfte Herangehensweise
+                  wirkt ausgleichend auf verschiedene Körpersysteme und fördert
+                  die körpereigenen Selbstheilungsmechanismen.
+                  <br />
+                  <br />
+                  Während der Behandlung liegt der Patient in Ruhe auf einer
+                  Therapieliege. Durch gezielte Techniken und sanfte Berührung
+                  wird die natürliche Regeneration des Körpers angeregt. Dies
+                  ermöglicht innere Entspannung und Heilung.
+                  <br />
+                  <br />
+                  Während und nach einer craniosacralen Therapie nehmen wir
+                  unser Körperbewusstsein verstärkt wahr, was uns dabei hilft,
+                  einen respektvolleren Umgang mit unserem eigenen Körper zu
+                  erlernen.
+                </div>
+              </div>
+
               <div className="flex justify-center">
                 <Card
                   headline="Blockaden lösen, Selbstheilung aktivieren"
@@ -77,7 +110,7 @@ const Layout = () => {
                 />
               </div>
             </div>
-            <div className="flex justify-center pt-12">
+            <div className="flex justify-center pt-20">
               <Card
                 headline="Hast du das Gefühl, dass Körper und Seele aus dem Gleichgewicht
                 geraten sind?"
@@ -91,7 +124,22 @@ const Layout = () => {
                 image={feelingBad}
               />
             </div>
-            <div
+            <div className="flex justify-center pt-20 pb-12">
+              <Card
+                headline="Cranio Sacral Therapie zur Steigerung deines Wohlbefindens"
+                content="Cranio Sacral Behandlungen bieten einen ganzheitlichen Ansatz für Gesundheit und Wohlbefinden, 
+                sowohl körperlich als auch emotional und seelisch. Sie fördern die körperliche Gesundheit, 
+                u.a. mit einem angeregten Körpersaftfluss, guter Durchblutung und einem starken Immunsystem. 
+                Gleichzeitig unterstützen sie das emotionale und seelische Wohlbefinden, indem sie zu einem freien Kopf, 
+                klarer Gedanken, Schmerzfreiheit, erholsamem Schlaf, gesteigerter Lebensenergie und mehr Lebensfreude führen. 
+                Dies trägt zu einer aufgehellten Stimmung, innerer Ruhe und Gelassenheit bei."
+                image={feelingRelaxed}
+              />
+            </div>
+            <div>
+              <Divider />
+            </div>
+            {/*             <div
               id="section-2"
               className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 12 pt-12 text-xl text-center"
             >
@@ -117,7 +165,7 @@ const Layout = () => {
                 Körperbewusstsein verstärkt wahr, was uns dabei hilft, einen
                 respektvolleren Umgang mit unserem eigenen Körper zu erlernen.
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flex justify-center">
             <Logo
