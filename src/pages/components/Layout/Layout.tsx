@@ -37,7 +37,7 @@ const Layout = () => {
           <div className="">
             <Wave />
             <div
-              className={`flex justify-center font-bold md:text-4xl md:mt-24 mt-2 ${style.text_gradient} `}
+              className={`flex justify-center font-bold md:text-4xl md:mt-24 mt-2 text-main-violet`}
             >
               Körper, Geist und Seele in Balance
             </div>
@@ -81,22 +81,11 @@ const Layout = () => {
                 <br />
                 <br />
                 <div className="md:text-xl text-base">
-                  Die Cranio Sacrale Körperbalance Therapie ist eine alternative
-                  und effektive Heilungsmethode. Ihre sanfte Herangehensweise
-                  wirkt ausgleichend auf verschiedene Körpersysteme und fördert
-                  die körpereigenen Selbstheilungsmechanismen.
-                  <br />
-                  <br />
-                  Während der Behandlung liegt der Patient in Ruhe auf einer
-                  Therapieliege. Durch gezielte Techniken und sanfte Berührung
-                  wird die natürliche Regeneration des Körpers angeregt. Dies
-                  ermöglicht innere Entspannung und Heilung.
-                  <br />
-                  <br />
-                  Während und nach einer craniosacralen Therapie nehmen wir
-                  unser Körperbewusstsein verstärkt wahr, was uns dabei hilft,
-                  einen respektvolleren Umgang mit unserem eigenen Körper zu
-                  erlernen.
+                  Die Cranio Sacrale Körperbalance ist eine sanfte, manuelle und
+                  energetische Körperarbeit, die den Menschen in seiner Ganzheit
+                  anspricht und die Selbstheilungskräfte aktiviert. Durch den
+                  achtsamen Umgang unterstütze ich die Selbstwahrnehmung und
+                  gebe dadurch dem Körper und der Seele Raum und Halt.
                 </div>
               </div>
 

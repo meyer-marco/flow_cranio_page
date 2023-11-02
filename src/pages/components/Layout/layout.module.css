@@ -3,10 +3,10 @@
 }
 
 .text_gradient {
-  background: #9c2c54;
-  background: -webkit-linear-gradient(to right, #9c2c54 0%, #dd8e6d 100%);
-  background: -moz-linear-gradient(to right, #9c2c54 0%, #dd8e6d 100%);
-  background: linear-gradient(to right, #9c2c54 0%, #dd8e6d 100%);
+  background: #7b1845;
+  background: -webkit-linear-gradient(to right, #7b1845 0%, #dd8e6d 100%);
+  background: -moz-linear-gradient(to right, #7b1845 0%, #dd8e6d 100%);
+  background: linear-gradient(to right, #7b1845 0%, #dd8e6d 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
