@@ -30,8 +30,8 @@ const Wave = (props: SVGProps<SVGSVGElement>) => (
     />
     <defs>
       <linearGradient id="b" x1={0} x2={0} y1={1} y2={0}>
-        <stop offset="0%" stopColor="rgba(221, 142, 109, 1)" />
-        <stop offset="100%" stopColor="rgba(251, 243, 227, 1)" />
+        <stop stop-color="rgba(227, 124, 71, 1)" offset="1%" />
+        <stop stop-color="rgba(234, 193, 173, 1)" offset="100%" />
       </linearGradient>
     </defs>
     <path
@@ -45,7 +45,7 @@ const Wave = (props: SVGProps<SVGSVGElement>) => (
     <defs>
       <linearGradient id="c" x1={0} x2={0} y1={1} y2={0}>
         <stop offset="0%" stopColor="rgba(221, 142, 109, 1)" />
-        <stop offset="100%" stopColor="rgba(251, 243, 227, 1)" />
+        <stop offset="80%" stopColor="rgba(251, 243, 227, 1)" />
       </linearGradient>
     </defs>
     <path
