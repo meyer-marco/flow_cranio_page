@@ -34,16 +34,16 @@ const Layout = () => {
       <div className="bg-main-background scroll-smooth pb-24">
         <Navbar onNavItemCkick={onNavItemCkick} />
         <div className={` bg-main-background px-10 ${style.distance_to_nav}`}>
-          <div className="">
+          <div className=" ">
             <Wave />
             <div
-              className={`flex justify-center font-bold md:text-4xl md:mt-24 mt-2 text-main-violet`}
+              className={`flex justify-center font-bold md:text-4xl md:mt-24 mt-6 text-main-violet`}
             >
               Körper, Geist und Seele in Balance
             </div>
           </div>
 
-          <div id="" className="mt-4 ">
+          <div id="" className="md:mt-4 ">
             <div className="flex justify-center ">
               <Logo
                 className="opacity-20 md:w-96 w-1/2 md:h-2/4 h-1/4"
@@ -51,36 +51,32 @@ const Layout = () => {
                 width={390}
               />
             </div>
-            <div>
+            <div className="">
               <Divider />
             </div>
             <div>
-              <div className="flex justify-center items-center content-center md:px-12 pt-6 pb-6 font-bold md:text-3xl text-base text-center">
-                Cranio Sacrale Körperbalance - Aktiviere Deine
+              <div className="flex justify-center items-center content-center md:px-12 md:pt-24 pt-6 pb-6 font-bold md:text-3xl text-base text-center">
+                Cranio Sacrale Körperbalance aktiviert Deine
                 Selbstheilungskräfte
               </div>
               {/*     <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
               Aktiviere Deine Selbstheilungskräfte
             </div> */}
-              <div className="md:pb-12 pb-12 md:pt-12 pt-4">
+              <div className="md:pb-20 pb-9 md:pt-12 pt-4">
                 <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
               </div>
               <div>
                 <Divider />
               </div>
-              {/*           <div className="flex justify-center items-center content-center md:px-12 pt-8 pb-20 font-bold md:text-3xl text-base text-center">
-                Welche Auswirkungen hat die Cranio Sacrale Körperarbeit?
-              </div> */}
               <div
                 id="section-2"
-                className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 12 pt-12 pb-20 text-xl text-center"
+                className="scroll-mt-36 flex flex-col justify-center items-center content-center md:px-44 md:pt-12 pt-6 md:pb-20 text-xl text-center"
               >
                 <div className="font-bold md:text-3xl text-base">
                   Was ist Cranio Sacrale Körperbalance?
                 </div>
-                <br />
-                <br />
-                <div className="md:text-xl text-base">
+
+                <div className="md:text-lg text-sm  pt-6">
                   Die Cranio Sacrale Körperbalance ist eine sanfte, manuelle und
                   energetische Körperarbeit, die den Menschen in seiner Ganzheit
                   anspricht und die Selbstheilungskräfte aktiviert. Durch den
@@ -89,7 +85,7 @@ const Layout = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center md:pt-0 pt-12">
                 <Card
                   headline="Blockaden lösen, Selbstheilung aktivieren"
                   content="Bei der Cranio Sacral Behandlung spüre ich Blockaden in deinem

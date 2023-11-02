@@ -7,7 +7,7 @@ const Wave = (props: SVGProps<SVGSVGElement>) => (
       transform: "rotate(0deg)",
       transition: ".3s",
     }}
-    viewBox="0 0 1440 300"
+    viewBox="0 0 1440 240"
     {...props}
   >
     <defs>
