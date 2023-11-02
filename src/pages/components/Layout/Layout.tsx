@@ -59,10 +59,7 @@ const Layout = () => {
                 Cranio Sacrale Körperbalance aktiviert Deine
                 Selbstheilungskräfte
               </div>
-              {/*     <div className="flex justify-center items-center content-center px-12 pt-4 pb-6 font-bold md:text-3xl text-base text-center">
-              Aktiviere Deine Selbstheilungskräfte
-            </div> */}
-              <div className="md:pb-20 pb-9 md:pt-12 pt-4">
+              <div className="md:pb-20 pb-9 md:pt-12 pt-4 flex justify-center">
                 <Image className="rounded-xl" src={easy} alt={"pic"}></Image>
               </div>
               <div>

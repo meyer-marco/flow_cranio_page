@@ -33,7 +33,7 @@ const Card: React.FC<{
 }> = ({ headline, content, image }) => {
   return (
     <Flowbite theme={{ theme: customTheme }}>
-      <CardWrapper className="md:w-1/2">
+      <CardWrapper className="xl:w-2/5 sm:w-2/3 md:-1/2">
         <div>
           <h5 className="mb-2 md:text-2xl text-lg text-main-violet">
             {headline}
@@ -41,8 +41,15 @@ const Card: React.FC<{
           <div className="mb-5 md:text-base text-sm font-thin text-main-violet">
             {content}
           </div>
-
-          <Image height={200} width={650} src={image} alt={""} />
+          <div className="flex justify-center">
+            <Image
+              className="rounded-lg"
+              height={200}
+              width={650}
+              src={image}
+              alt={""}
+            />
+          </div>
         </div>
       </CardWrapper>
     </Flowbite>
